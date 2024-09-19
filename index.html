@@ -11,14 +11,13 @@ rel="stylesheet"
 integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 crossorigin="anonymous">
 <link rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstr
-ap-icons.min.css">
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="style.css"/>
 <!-- Власні CSS-стилі -->
 </head>
 <body>
 <!-- Тіло: увесь вміст сторінки -->
-<header class="container fixed">
+<header class="container-fluid fixed">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -44,7 +43,7 @@ ap-icons.min.css">
           </ul>
           <form id="searchForm" class="d-flex mx-auto" role="search">
             <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
-            <button class="btn btn-outline-secondary btn-search" type="submit">Знайти</button>
+            <button class="btn btn-outline-secondary btn-search own-but-style" type="submit">Знайти</button>
           </form>
           <button class="cart-btn" id="cartBtn">
             Кошик
@@ -66,8 +65,7 @@ ap-icons.min.css">
       </div>
     </nav>
   </header>
-<main class="container">
-  <main>
+<main>
     <section class="banner">
       <h1 class="fade-in-text">Вітаю в комп'ютерному магазині </h1>
       <h3>TechZone</h3>
@@ -89,21 +87,16 @@ ap-icons.min.css">
         <div class="col">
           <img src="img/ноутбуки.jpg" class="img-fluid">
         </div>
-
-
-
-
       </div>
     </section>
   </main>
 
-
-<footer>
   <footer class="text-center py-4">
-    <p>&copy; 2024 TechZone. Всі права захищені.</p>
+    <button id="themeToggle"><i class="bi bi-brightness-high"></i></button>
+    <p> 2024 TechZone. Всі права захищені.</p>
     <p>Контакти: info@techzone.com</p>
 </footer>
-</footer>
+
 <!-- Підключення JS-файлу Bootstrap-->
 <script
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
