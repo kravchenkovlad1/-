@@ -1,11 +1,11 @@
-
+[
 {
         "title": "Ноутбук Acer Aspire Go 15 ",
         "price": 16000,
         "image": "ноут1.png",
         "description": "Екран 15.6 Full HD, матовий  Intel Core i3-N305 (3.8 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel UHD Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / без ОС / 1.75 кг / сріблястий."
 
-}
+},
         {
         "title": "Новий ноутбук ASUS TUF Gaming F15",
         "price": 30500,
@@ -36,3 +36,4 @@
         "image": "ноут6.png",
         "description": "Диагональ экрана 16'' Модель центрального процессора Core i5-13450HX Объем ОЗУ 16 ГБ Объем накопителя 512 ГБ Модель графического процессора GeForce RTX 4060 "
     }
+]

@@ -75,9 +75,9 @@ header.fixed {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(to left, rgb(173, 154, 255), rgb(149, 110, 255));
+    background: linear-gradient(to left, rgb(102, 159, 224), rgb(255, 255, 255));
     border-radius: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(39, 39, 39);
     font-weight: 600;
     font-size: 0.9em;
     font-family: "Martian Mono", monospace;
@@ -93,7 +93,7 @@ header.fixed {
 }
 
 .cart-btn:hover {
-    background: linear-gradient(to left, rgb(154, 131, 255), rgb(135, 91, 255));
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(102, 159, 224));
 }
 
 .cart-btn:active {
@@ -161,7 +161,7 @@ max-width: 350px;
     background: #DCE5E2;
     cursor: pointer;
     transition: background .2s linear;
-    color: #ffffff;
+    color: #000000;
 }
 
 .linght-theme .my-card:hover {
@@ -172,6 +172,7 @@ max-width: 350px;
     font-size: 1rem;
     font-weight: 600;
     margin-top: 20px;
+    height: 50px;
 }
 
 .description-card { 
@@ -179,6 +180,7 @@ max-width: 350px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; font-size: 0.7rem;
+    height: 80px;
 }
     .price-card { font-size: 1rem; line-height: 1rem;
     color:rgb (154, 131, 255);
@@ -203,7 +205,7 @@ max-width: 350px;
 footer {
 margin-top: 50px;
 background: rgb (73, 73, 73); padding: 50px 100px;
-color:#c8c8c8;
+
 }
 
 #themeToggle {
